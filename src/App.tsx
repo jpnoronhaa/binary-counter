@@ -1,10 +1,11 @@
 import React from "react";
+import FlipCountdown from "./Flip";
 
 function App() {
   return (
     <div>
       <header>
-        <p>Binary Counter</p>
+        <FlipCountdown />
       </header>
     </div>
   );
